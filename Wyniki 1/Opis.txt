@@ -1,0 +1,4 @@
+Uczenie przeprowadzam przy wspó³czynniku uczenia równym 0,6 dla konkretnego zbioru wektorów ucz¹cych (AND, OR, NOT).
+Na zdjêciach widoczne s¹ wartoœci wag, wartoœæ funkcji progowej, iloœæ iteracji potrzebnych do nauczenia. 
+Pierwszy wykres przedstawia rozk³ad danych oraz funkcjê liniowo separowaln¹. Jest te¿ wykres funkcji b³êdu, który pokazuje wartoœæ b³êdu w kolejnych iteracjach.
+Ograniczeniem perceptronu jest fakt, ¿e za jego pomoc¹ mo¿na rozwi¹zaæ tylko problemy separowalne liniowo. Na przyk³adzie bramki XOR pokaza³em, ¿e jest to problem nierozwi¹zywalny przez perceptron.
