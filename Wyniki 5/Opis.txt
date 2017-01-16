@@ -1,0 +1,6 @@
+Rozpatrzono nastêpuj¹cy przyk³ad: rozpoznajemy obrazek z³o¿ony z 9 pikseli. Czarny piksel reprezentowany jest jako 1, natomiast bia³y jako -1. W ten sposób otrzymaliœmy 9-cioelementowy wektor testowy. 
+Za pomoc¹ regu³y Hebba nauczyliœmy sieci trzech wektorów: 
+x1=[1,1,1,1,-1,1,1,1,1], x2=[1,-1,1,-1,1,-1,1,-1,1], x3=[-1,-1,-1,-1,-1,-1,-1,-1,-1] (zdjêcie 1).
+Przy odpytywaniu sieci dla jednego z wzorcowych elementów, sieæ odpowiedzia³a w³aœnie tym elementem.
+Nastêpnie utworzy³em nowy wektor, który wys³a³em do sieci (zdjêcie 2). Sieæ odtworzy³a wektor wed³ug schematu, który wczeœniej zapamiêta³a (zdjêcie 3). Ucz¹c sieæ tego wektora, po ponownym odpytaniu otrzymamy ten sam wektor (zdjêcie 4).
+Podsumowanie: podaj¹c na wejœcie sieci wektor identyczny z wzorcem, sieæ nie zmieni swojego stanu, rozpoznaje ona równie¿ obrazy niewiele ró¿ni¹ce siê od wzorców.
