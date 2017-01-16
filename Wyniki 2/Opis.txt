@@ -1,0 +1,3 @@
+Na zdjêciu 1 widzimy zastosowanie algorytmu wstecznej propagacji do wykonania aproksymacji funkcji kwadratowej z podanymi danymi ucz¹cymi. Dla 20 neuronów w pierwszej warstwie i 5000 iteracji b³¹d uczenia wynosi³ 0,330.
+Na zdjêciu 2 i 3 zaprezentowane jest uczenie regu³¹ delta kolejno dla 1 i 2 neuronów dla podanych danych wejœciowych. Funkcja b³êdu zobrazowana jest na wykresie- jej zmiana w poszczególnych iteracjach.
+Na zdjêciu 4 i 5 przedstawione zosta³y wyniki uczenia regu³¹ delta dla funkcji XOR wraz z wykresem funkcji b³êdu dla poszczególnych iteracji.
